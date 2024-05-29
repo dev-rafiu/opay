@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Re-design of Opay's website landing page
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  - [Screenshot](#screenshot)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - [Desktop preview](#destoppreview)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+  - [Mobile preview](#mobilepreview)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - [Links](#links)
 
-## Learn More
+  - [Built with](#built-with)
 
-To learn more about Next.js, take a look at the following resources:
+  - [Built by](#built-with)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is a re-design of Opay's (a financial institution based in Nigeria) website landing page
 
-## Deploy on Vercel
+### Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+N/A
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Desktop preview
+
+![Desktop design preview of the Opay's Landing Page](./)
+
+#### Mobile preview
+
+![Mobile design preview of the Opay's Landing Page](./)
+
+### Links
+
+- Live Site URL: ()
+
+### Built with
+
+- Next.js 14 ( App Router)
+- Tailwind Css
+
+### Built by
+
+- [Emmanuel U. Nwachukwu, U.E.D](https://www.linkedin.com/in/emmanuel-u-nwachukwu-u-e-d-05b435236/) (UI/UX designer)
+
+- [Ibrahim Abubakar Saddik](https://www.linkedin.com/in/ibrahim-abubakar-saddik/) (Senior front-end developer)
+
+- [Rafiw Idrissu](https://www.linkedin.com/in/rafiw-idrissu/) (Junior front-end developer)
+
+## Acknowledgments
+
+N/A
