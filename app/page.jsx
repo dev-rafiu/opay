@@ -1,3 +1,9 @@
+import ClientsSay from "./components/clients-say";
+
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <ClientsSay />
+    </main>
+  );
 }
