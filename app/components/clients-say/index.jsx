@@ -3,14 +3,14 @@ import sectionImg from "/public/images/clients-say/img-orbit.png";
 
 function ClientsSay() {
   return (
-    <section className="grid min-h-dvh place-content-center space-y-2">
+    <section className="space-y-2 py-12">
       <header className="text-center text-foreground">
         <h2 className="mx-auto max-w-xs">What our users say about us?</h2>
       </header>
 
       <div className="container grid gap-2 md:grid-cols-2 lg:gap-5">
         {/* image wrapper */}
-        <div className="relative h-[26rem] py-8">
+        <div className="relative h-[27rem]">
           <Image
             src={sectionImg}
             alt=""
