@@ -1,7 +1,10 @@
+import ClientsSay from "./components/clients-say";
+import FAQs from "./components/faqs";
+import Features from "./components/features";
+
 import TrustedBy from "./components/trusted-by";
 import Hero from "./components/hero";
 import Services from "./components/services";
-import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -9,7 +12,9 @@ export default function Home() {
       <Hero />
       <Services />
       <TrustedBy />
-      {/* <Footer /> */}
+      <ClientsSay />
+      <Features />
+      <FAQs />
     </main>
   );
 }
