@@ -23,6 +23,11 @@ module.exports = {
 
         primary: "rgba(var(--clr-primary),<alpha-value>)",
       },
+      fontFamily: {
+        prosto_one: ["var(--font-prosto-one)"],
+        poppins: ["var(--font-poppins)"],
+        rubik: ["var(--font-rubik)"],
+      },
     },
   },
   plugins: [],
