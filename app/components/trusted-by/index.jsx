@@ -37,10 +37,10 @@ function TrustedBy() {
       </div>
 
       {/* investors */}
-      <p className="font-poppins text-2xl font-bold text-gray-500">
+      <p className="font-poppins text-2xl font-semibold text-gray-600">
         Our Investors
       </p>
-      <div className="font-poppins flex w-full items-center justify-center gap-2">
+      <div className="flex w-full items-center justify-center gap-2 font-poppins">
         {investorsLogos.map((logo, i) => (
           <div
             className="relative"

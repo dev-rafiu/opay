@@ -22,6 +22,7 @@ module.exports = {
         "muted-foreground": "rgba(var(--muted-foreground),<alpha-value>)",
 
         primary: "rgba(var(--clr-primary),<alpha-value>)",
+        footerDarkBlue: "#060216",
       },
       fontFamily: {
         prosto_one: ["var(--font-prosto-one)"],
