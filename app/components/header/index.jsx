@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { navLinks } from "../lib/nav-links";
+import { navLinks } from "../../lib/nav-links";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between">
+    <header className="hidden items-center justify-between lg:flex">
       <div className="flex items-center gap-8">
         {/* logo */}
         <Link href="#" className="relative h-[6rem] w-[8rem]">
