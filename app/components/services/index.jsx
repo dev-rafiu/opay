@@ -18,7 +18,8 @@ function Services() {
       </div>
 
       {/* cards */}
-      <div className="z-20 grid w-full max-w-6xl grid-cols-2 gap-8 px-4 md:grid-cols-3">
+      {/* <div className="z-20 grid w-full max-w-6xl grid-cols-2 gap-8 px-4 md:grid-cols-3"> */}
+      <div className="z-20 grid w-full max-w-6xl grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-8 px-4">
         {servicesItems.map((service, i) => (
           <ServiceCard key={i} service={service} />
         ))}

@@ -35,10 +35,12 @@ export default function RootLayout({ children }) {
         <div className="container flex min-h-dvh flex-col">
           <Header />
 
+          {children}
           <main className="grow">{children}</main>
 
           <Footer />
         </div>
+        <Footer />
       </body>
     </html>
   );
