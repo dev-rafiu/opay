@@ -12,9 +12,9 @@ const FEATURES = [
 
 function Features() {
   return (
-    <section className="container rounded-md bg-primary">
-      <div className="grid gap-8 pl-8 md:h-[28rem] md:grid-cols-2">
-        <div className="space-y-6 self-center pt-8 text-background">
+    <section className="py-16">
+      <div className="container grid gap-8 rounded-md bg-primary pl-8 md:h-[28rem] md:grid-cols-2">
+        <div className="space-y-6 self-center pt-2 text-background">
           <h1 className="max-w-xs font-medium">Payment made easy.</h1>
 
           <p className="max-w-lg">

@@ -4,7 +4,7 @@ import { servicesItems } from "./servicesItems";
 
 function Services() {
   return (
-    <div className="relative flex flex-col items-center space-y-4 py-8">
+    <section className="relative flex flex-col items-center space-y-4 py-16">
       <h3 className="font-poppins text-3xl font-bold">Our Banking Services</h3>
 
       {/* gradient */}
@@ -24,7 +24,7 @@ function Services() {
           <ServiceCard key={i} service={service} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

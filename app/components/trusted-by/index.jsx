@@ -25,7 +25,7 @@ const investorsLogos = [
 
 function TrustedBy() {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-center gap-4">
+    <section className="flex flex-col flex-wrap items-center justify-center gap-4 py-16">
       <div className="relative h-[937px] w-full">
         <Image
           src="/trusted-by/trusted-by.png"
@@ -51,7 +51,7 @@ function TrustedBy() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
