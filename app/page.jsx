@@ -5,16 +5,18 @@ import Features from "./components/features";
 import TrustedBy from "./components/trusted-by";
 import Hero from "./components/hero";
 import Services from "./components/services";
+import Goals from "./components/goals";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-      <Services />
-      <TrustedBy />
-      <ClientsSay />
-      <Features />
-      <FAQs />
-    </main>
+    <>
+      {/* <Hero /> */}
+      {/* <Services /> */}
+      <Goals />
+      {/* <TrustedBy /> */}
+      {/* <ClientsSay /> */}
+      {/* <Features /> */}
+      {/* <FAQs /> */}
+    </>
   );
 }
