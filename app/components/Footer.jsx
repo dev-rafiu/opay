@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="bg-footerDarkBlue border font-poppins">
+    <footer className="bg-footerDarkBlue font-poppins">
       <div className="container mb-10 min-h-[500px] space-y-[4rem] p-[5rem]">
         <div className="space-y-2">
           {/* footer grid items */}
