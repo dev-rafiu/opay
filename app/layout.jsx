@@ -15,12 +15,11 @@ export const rubik = Poppins({
   variable: "--font-poppins",
 });
 
-//  ${prosto_one.variable}
-// const prosto_one = Prosto_One({
-//   subsets: ["latin"],
-//   weight: "400",
-//   variable: "--font-prosto-one",
-// });
+const prosto_one = Prosto_One({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-prosto-one",
+});
 
 export const metadata = {
   title: "Opay re-design",
@@ -30,11 +29,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${rubik.variable} ${poppins.variable}`}>
-        <div className="container">
+      <body
+        className={`${rubik.variable}  ${prosto_one.variable} ${poppins.variable}`}
+      >
+        <div className="container flex min-h-dvh flex-col">
           <Header />
 
-          {/* {children} */}
+          <main className="grow">{children}</main>
 
           <Footer />
         </div>
