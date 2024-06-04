@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="bg-footerDarkBlue font-poppins">
+    <footer className="bg-footerDarkBlue border font-poppins">
       <div className="container mb-10 min-h-[500px] space-y-[4rem] p-[5rem]">
         <div className="space-y-2">
           {/* footer grid items */}
@@ -153,10 +153,11 @@ function Footer() {
         <hr />
 
         <p className="cursor-pointer text-center text-sm text-white">
-          Copyright 2024 Opay.com all rights reserved
+          Copyright <span>{new Date().getFullYear()}</span> Opay.com all rights
+          reserved
         </p>
       </div>
-    </div>
+    </footer>
   );
 }
 

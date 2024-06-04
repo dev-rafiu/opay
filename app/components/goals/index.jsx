@@ -6,8 +6,8 @@ import img3 from "/public/images/goals/img3.png";
 
 function Goals() {
   return (
-    <section className="py-12">
-      <div className="space-y-12 font-poppins">
+    <section className="py-16">
+      <div className="space-y-16 font-poppins">
         <header className="space-y-2 text-center">
           <p className="text-xl font-medium text-gray-500">
             Our goal is simple
@@ -21,6 +21,7 @@ function Goals() {
           </p>
         </header>
 
+        {/* list */}
         <ul className="grid gap-14">
           <li className="flex flex-col-reverse items-start justify-between gap-4 lg:flex-row">
             {/* text content */}
@@ -45,7 +46,6 @@ function Goals() {
                 alt=""
                 fill
                 placeholder="blur"
-                blurDataURL="data:..."
                 className="object-cover"
               />
             </div>
@@ -70,7 +70,6 @@ function Goals() {
                 alt=""
                 fill
                 placeholder="blur"
-                blurDataURL="data:..."
                 className="object-cover"
               />
             </div>
@@ -96,7 +95,6 @@ function Goals() {
                 alt=""
                 fill
                 placeholder="blur"
-                blurDataURL="data:..."
                 className="object-cover"
               />
             </div>

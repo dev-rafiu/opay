@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { navLinks } from "../../lib/nav-links";
+import { navLinks } from "../../utils/nav-links";
 
 function Header() {
   return (
