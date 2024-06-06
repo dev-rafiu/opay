@@ -4,7 +4,7 @@ import { servicesItems } from "./servicesItems";
 
 function Services() {
   return (
-    <section className="relative flex flex-col items-center space-y-4 py-16">
+    <section className="relative flex flex-col items-center space-y-4 py-14">
       <h3 className="font-poppins text-3xl font-bold">Our Banking Services</h3>
 
       {/* gradient */}

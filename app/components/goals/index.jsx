@@ -6,7 +6,7 @@ import img3 from "/public/images/goals/img3.png";
 
 function Goals() {
   return (
-    <section className="py-16">
+    <section className="py-14">
       <div className="space-y-16 font-poppins">
         <header className="space-y-2 text-center">
           <p className="text-xl font-medium text-gray-500">
