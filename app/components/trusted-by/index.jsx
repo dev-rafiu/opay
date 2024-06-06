@@ -25,12 +25,12 @@ const investorsLogos = [
 
 function TrustedBy() {
   return (
-    <section className="flex flex-col flex-wrap items-center justify-center gap-4 py-16">
+    <section className="flex flex-col flex-wrap items-center justify-center gap-4 py-14">
       <div className="relative h-[937px] w-full">
         <Image
           src="/trusted-by/trusted-by.png"
           alt="Radial Gradient"
-          className=""
+          className="object-cover"
           fill
           sizes="100vw"
         />

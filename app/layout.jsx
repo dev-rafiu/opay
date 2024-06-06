@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${rubik.variable}  ${prosto_one.variable} ${poppins.variable}`}
+        className={`${rubik.variable} ${prosto_one.variable} ${poppins.variable}`}
       >
         <div className="container flex min-h-dvh flex-col">
           <Header />

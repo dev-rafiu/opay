@@ -3,7 +3,7 @@ import sectionImg from "/public/images/clients-say/img-orbit.png";
 
 function ClientsSay() {
   return (
-    <section className="space-y-2 py-16">
+    <section className="space-y-2 py-14">
       <header className="text-center text-foreground">
         <h2 className="mx-auto max-w-xs">What our users say about us?</h2>
       </header>

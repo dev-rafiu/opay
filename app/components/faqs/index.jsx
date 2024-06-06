@@ -19,7 +19,7 @@ const FAQS = [
 
 function FAQs() {
   return (
-    <section className="py-16">
+    <section className="py-14">
       <div className="container grid gap-8 px-0 lg:grid-cols-2">
         <div className="space-y-6">
           <h1 className="font-medium">Need help?</h1>
