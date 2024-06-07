@@ -28,7 +28,6 @@ function Footer() {
 
             {/* contact */}
             <div className="space-y-4 font-poppins">
-              {/* logo */}
               <div className="relative h-[23px] w-[120px]">
                 <Image
                   src="/footer/opay-logo-white.svg"
@@ -39,7 +38,6 @@ function Footer() {
                 />
               </div>
 
-              {/* emai */}
               <div className="flex items-center gap-2">
                 <div className="relative h-[20px] w-[20px]">
                   <Image
@@ -143,10 +141,13 @@ function Footer() {
               <form className="flex w-full gap-2">
                 <input
                   type="text"
-                  className="w-full border border-gray-700 bg-transparent px-2 text-gray-400 outline-none"
+                  className="w-full rounded border border-gray-700 bg-transparent px-2 text-gray-400 outline-none"
                   placeholder="Your Email"
                 />
-                <button href={"#"} className="bg-primary px-4 py-3 text-white">
+                <button
+                  href={"#"}
+                  className="rounded bg-primary px-4 py-3 text-white"
+                >
                   Subscribe
                 </button>
               </form>

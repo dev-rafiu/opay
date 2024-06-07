@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center space-y-4 py-10 lg:space-y-8">
+    <div className="flex flex-col items-center space-y-6 py-6 lg:space-y-8">
       {/* gradient */}
       <div className="absolute left-0 top-0 -z-10 hidden h-[60rem] w-[60rem] lg:block">
         <Image
@@ -13,11 +13,11 @@ function Hero() {
         />
       </div>
 
-      <p className="max-w-3xl text-center font-prosto_one text-[5rem] font-normal leading-none text-[#1A1A1A]">
+      <h1 className="max-w-3xl text-center font-prosto_one font-normal text-[#1A1A1A] lg:text-[5rem]">
         We are Beyond Banking
-      </p>
+      </h1>
 
-      <p className="text-center font-poppins text-[1.3rem] text-foreground/60">
+      <p className="max-w-lg text-center font-poppins text-[1.3rem] text-foreground/60">
         Providing secure, easy to use & affordable financial services with
         superfast user experience.
       </p>
