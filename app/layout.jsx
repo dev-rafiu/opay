@@ -1,4 +1,5 @@
 import { Prosto_One, Rubik, Poppins } from "next/font/google";
+
 import "./globals.css";
 
 import Footer from "./components/Footer";
@@ -21,9 +22,40 @@ const prosto_one = Prosto_One({
   variable: "--font-prosto-one",
 });
 
-export const metadata = {
+const meta = {
   title: "Opay re-design",
   description: "A re-design of opay's website",
+  image: `${WEBSITE_HOST_URL}/og-image.jpg`,
+};
+
+export const metadata = {
+  metadataBase: new URL(`${WEBSITE_HOST_URL}`),
+  title: {
+    default: meta.title,
+    template: `%s | ${meta.title}`,
+  },
+  description: meta.description,
+
+  openGraph: {
+    title: meta.title,
+    description: meta.description,
+    url: WEBSITE_HOST_URL,
+    locale: "en-US",
+    siteName: meta.title,
+    type: "website",
+    images: [{ url: meta.image }],
+  },
+
+  twitter: {
+    title: meta.title,
+    description: meta.description,
+    images: [{ url: meta.image }],
+    card: "summary_large_image",
+  },
+
+  alternates: {
+    canonical: WEBSITE_HOST_URL,
+  },
 };
 
 export default function RootLayout({ children }) {
