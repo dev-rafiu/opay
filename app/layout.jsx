@@ -1,4 +1,5 @@
 import { Prosto_One, Rubik, Poppins } from "next/font/google";
+import { WEBSITE_HOST_URL } from "./sitemap";
 
 import "./globals.css";
 
