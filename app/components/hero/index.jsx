@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center space-y-4 lg:space-y-8">
+    <div className="flex flex-col items-center space-y-4 py-10 lg:space-y-8">
       {/* gradient */}
       <div className="absolute left-0 top-0 -z-10 hidden h-[60rem] w-[60rem] lg:block">
         <Image

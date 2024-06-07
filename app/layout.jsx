@@ -1,8 +1,8 @@
 import { Prosto_One, Rubik, Poppins } from "next/font/google";
 import "./globals.css";
 
-import Header from "./components/header";
 import Footer from "./components/Footer";
+import HeaderLayout from "./components/header";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -33,9 +33,10 @@ export default function RootLayout({ children }) {
         className={`${rubik.variable} ${prosto_one.variable} ${poppins.variable}`}
       >
         <div className="container flex min-h-dvh flex-col">
-          <Header />
+          <HeaderLayout />
           <main className="grow">{children}</main>
         </div>
+
         <Footer />
       </body>
     </html>
