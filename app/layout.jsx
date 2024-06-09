@@ -25,8 +25,9 @@ const prosto_one = Prosto_One({
 
 const meta = {
   title: "Opay re-design",
-  description: "A re-design of opay's website",
-  image: `${WEBSITE_HOST_URL}/og-image.jpg`,
+  description:
+    "Providing secure, easy to use & affordable financial services with superfast user experience.",
+  image: `${WEBSITE_HOST_URL}/opengraph-image.jpg`,
 };
 
 export const metadata = {
