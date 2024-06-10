@@ -10,13 +10,13 @@ import Goals from "./components/goals";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Services />
+      {/* <Hero /> */}
+      {/* <Services /> */}
       <Goals />
-      <TrustedBy />
-      <ClientsSay />
-      <Features />
-      <FAQs />
+      {/* <TrustedBy /> */}
+      {/* <ClientsSay /> */}
+      {/* <Features /> */}
+      {/* <FAQs /> */}
     </>
   );
 }
