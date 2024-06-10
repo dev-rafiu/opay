@@ -26,11 +26,11 @@ const investorsLogos = [
 function TrustedBy() {
   return (
     <section className="flex flex-col flex-wrap items-center justify-center gap-4 py-14">
-      <div className="relative h-[937px] w-full">
+      <div className="relative h-[300px] w-full md:h-[937px]">
         <Image
           src="/trusted-by/trusted-by.png"
           alt="Radial Gradient"
-          className="object-cover"
+          className="object-contain md:object-cover"
           fill
           sizes="100vw"
         />
@@ -40,7 +40,7 @@ function TrustedBy() {
       <p className="font-poppins text-2xl font-semibold text-gray-600">
         Our Investors
       </p>
-      <div className="flex w-full items-center justify-center gap-2 font-poppins">
+      <div className="flex w-full flex-col items-center justify-center gap-2 font-poppins md:flex-row">
         {investorsLogos.map((logo, i) => (
           <div
             className="relative"
