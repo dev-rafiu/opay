@@ -24,7 +24,7 @@ function Goals() {
 
         <ul className="grid gap-14">
           <li className="relative flex flex-col-reverse items-start justify-between gap-4 lg:flex-row">
-            {/* designs */}
+            {/* card designs */}
             <div className="absolute bottom-10 left-[25%] z-10 mx-auto hidden space-y-4 lg:block">
               <div className="flex -rotate-3 items-center gap-4 rounded-lg bg-background p-4 shadow-lg">
                 <div className="relative grid h-12 w-14 place-content-center rounded-md bg-primary/30 p-4">
@@ -87,8 +87,8 @@ function Goals() {
           </li>
 
           <li className="relative flex flex-col-reverse items-start justify-between gap-4 lg:flex-row-reverse">
-            {/* designs */}
-            <div className="absolute bottom-10 left-[25%] z-10 mx-auto hidden space-y-4 lg:block">
+            {/* card designs */}
+            <div className="absolute bottom-10 left-[30%] z-10 mx-auto hidden space-y-4 lg:block">
               <div className="flex rotate-1 items-center gap-4 rounded-lg bg-background p-4 shadow-lg">
                 <div className="relative grid h-12 w-14 place-content-center rounded-md bg-primary/30 p-4">
                   <Image
@@ -126,6 +126,16 @@ function Goals() {
                   </p>
                 </div>
               </div>
+
+              <div className="flex items-center justify-center gap-4">
+                <span className="border-foreground/3 block w-full -rotate-3 rounded-lg border-[10px] bg-background p-2 text-lg font-bold text-foreground shadow-lg">
+                  ₦ 5,000
+                </span>
+
+                <span className="border-foreground/3 block w-full rotate-3 rounded-lg border-[10px] bg-background p-2 text-lg font-bold text-foreground shadow-lg">
+                  ₦ 100,000
+                </span>
+              </div>
             </div>
 
             {/* text content */}
@@ -152,7 +162,7 @@ function Goals() {
           </li>
 
           <li className="relative flex flex-col-reverse items-start justify-between gap-4 lg:flex-row">
-            {/* designs */}
+            {/* card designs */}
             <div className="absolute bottom-10 left-[25%] z-10 mx-auto hidden space-y-4 lg:block">
               <div className="flex -rotate-3 items-center gap-4 rounded-lg bg-background p-4 shadow-lg">
                 <div className="relative grid h-12 w-14 place-content-center rounded-md bg-red-100 p-4">
