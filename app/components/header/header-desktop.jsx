@@ -31,10 +31,7 @@ function HeaderDesktop({ openMobileNav }) {
 
       {/* logo and navlinks */}
       <div className="hidden items-center gap-8 lg:flex">
-        <Link
-          href="#"
-          className="relative h-[5rem] w-[6rem] object-cover lg:w-[8rem]"
-        >
+        <Link href="#" className="relative h-[5rem] w-[6rem] object-cover">
           <Image
             src="/logo.png"
             alt="Opay Logo"
@@ -64,7 +61,7 @@ function HeaderDesktop({ openMobileNav }) {
         <li>
           <Link
             href="#"
-            className="grid h-[2.6rem]  w-[7.45rem] place-content-center rounded-md bg-primary text-background"
+            className="grid h-[2.6rem] w-[7.45rem] place-content-center rounded-md bg-[#1DCF9F] text-background"
           >
             join opay
           </Link>

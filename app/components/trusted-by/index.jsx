@@ -1,10 +1,11 @@
 import Image from "next/image";
+import trustedImage from "/public//trusted-by/trusted-by.png";
 
 const investorsLogos = [
   {
     imageSrc: "/trusted-by/uba.png",
     width: "160px",
-    height: "100px",
+    height: "95px",
   },
   {
     imageSrc: "/trusted-by/wise.png",
@@ -28,11 +29,11 @@ function TrustedBy() {
     <section className="flex flex-col flex-wrap items-center justify-center gap-4 py-14">
       <div className="relative h-[300px] w-full md:h-[937px]">
         <Image
-          src="/trusted-by/trusted-by.png"
+          src={trustedImage}
+          placeholder="blur"
+          fill
           alt="Radial Gradient"
           className="object-contain md:object-cover"
-          fill
-          sizes="100vw"
         />
       </div>
 
